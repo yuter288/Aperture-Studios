@@ -23,6 +23,14 @@ h2 {
     line-height: 42px;
 }
 
+hr {
+    width: 90%;
+    margin-top: 40px;
+    border: 1px solid white;
+    /* margin-left: 143px; */
+    justify-content: center;
+}
+
 .main-container {
     background-color: #000;
 }
@@ -79,6 +87,7 @@ h2 {
 .container {
     width: 100%;
     height: 100%;
+    background-color: #000;
 }
 
 .main__studio {
@@ -510,4 +519,110 @@ h2 {
 
 .footer__container_1 {
     height: 314px;
+}
+
+.footer__container_2-content-1 {
+    width: 100%;
+    display: flex;
+    padding-top: 150px;
+    margin-left: 130px;
+}
+
+.content-1__left-column_text {
+    padding-top: 17px;
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.content-1__left-column {
+
+}
+
+
+.content-1__midle-column {
+    margin-left: 600px;
+}
+
+.content-1__right-column {
+    margin-left: 100px;
+}
+
+.content-1__midle-column_title {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.content-1__midle-column_text {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.content-2__left-column_title {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.content-2__left-column_text {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.content-2__left-column {
+    padding-left: 5%;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+.footer__container_2-content-3 {
+    justify-content: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 60px;
+}
+
+.content-3__left-column-text {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.content-3__right-column {
+    justify-content: right;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.content-3__right-column-img {
+    padding-left: 20px;
 }
