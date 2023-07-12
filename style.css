@@ -90,8 +90,15 @@ h2 {
 .main__studio-quote {
     padding-top: 487px;
     text-align: center;
-    width: 580px;
-    padding-left: 460px;
+    width: 100%;
+}
+
+.main__studio-quote-content {
+    width: 518px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35%;
+
 }
 
 .main__studio-text {
@@ -453,4 +460,54 @@ h2 {
 .faling-stars__icons {
     display: flex;
     padding: 200px 30px 20px 1200px;
+}
+
+.footer__container {
+    background-color: #000;
+}
+
+.footer__container-text {
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    padding-left: 40%;
+    padding-top: 100px;
+}
+
+
+.footer__container_text-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    padding-bottom: 15px;
+}
+
+.footer__container_text-text {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer__container-button {
+    border-radius: 14px;
+    background: #FFF;
+    width: 143px;
+    height: 42px;
+    margin-left: 5px;
+    font-family: Poppins-Italic;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 52.5%;
+}
+
+.footer__container_1 {
+    height: 314px;
 }
