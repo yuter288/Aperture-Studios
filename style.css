@@ -1,0 +1,456 @@
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url(fonts/Poppins-Italic.ttf) format(truetype);
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59.4px;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins-Italic';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.main-container {
+    background-color: #000;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background: #181818;
+    display: flex;
+}
+
+.logo-img {
+    padding: 30px 0px 30px 152px;
+    width: 128px;
+    height: 31px;
+}
+
+.header__buttons {
+    display: flex;
+    width: 900px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 400px;
+}
+
+.header__buttons-button {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Poppins-Italic';
+    padding-right: 20px;
+}
+
+.header__buttons-button-s {
+    color: #000;
+    font-family: 'Poppins-Italic';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    background-color: #FFF;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.header__buttons-button-s:hover {
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.main__studio {
+    background-image: url(images/main-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main__studio-quote {
+    padding-top: 487px;
+    text-align: center;
+    width: 580px;
+    padding-left: 460px;
+}
+
+.main__studio-text {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.main__studio-icons {
+    padding-top: 13px;
+    text-align: right;
+    display: flex;
+    padding-right: 46px;
+    padding-bottom: 46px;
+}
+
+
+.main__studio-icons-text {
+    color: #FFF;
+    font-family: 'Poppins-Italic';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    padding-right: 16px;
+    padding-left: 4px
+}
+
+.main__what-we-do {
+    background-color: #000;
+    width: 100%;
+}
+
+.main__what-we-do-secondary-text {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main__what-we-do-container-1 {
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+.main__what-we-do-container-2 {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    padding-bottom: 70px;
+}
+
+.picture-1 {
+    background-image: url(images/what-we-do-1.png);
+    width: 576px;
+    height: 600px;
+    margin: 42px 16px 16px 136px;
+}
+
+.picture-2 {
+    background-image: url(images/what-we-do-2.png);
+    width: 576px;
+    height: 600px;
+    margin: 42px 136px 16px 16px;
+}
+
+.picture-3 {
+    background-image: url(images/what-we-do-3.png);
+    width: 576px;
+    height: 600px;
+    margin: 42px 16px 16px 136px;
+}
+
+.picture-4 {
+    background-image: url(images/what-we-do-4.png);
+    width: 576px;
+    height: 600px;
+    margin: 42px 136px 16px 16px;
+}
+
+.picture-title {
+    padding: 400px 0 0 30px;
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.picture-text {
+    padding: 0 0 0 30px;
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.button {
+    border-radius: 14px;
+    background: #FFF;
+    width: 143px;
+    height: 42px;
+    margin-left: 30px;
+    font-family: Poppins-Italic;
+    display: flex;
+}
+
+.button__text {
+    padding: 12px 0px 10px 5px;
+}
+
+.black-dot {
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+.mountain__container {
+    background-image: url(images/mountain.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mountain__container-text {
+    padding:  270px 100px 230px 1080px;
+}
+
+.mountain-title {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.mountain-text {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.mountain__container-icons {
+    display: flex;
+    padding-top: 13px;
+    text-align: right;
+    display: flex;
+    padding-right: 46px;
+    padding-bottom: 18px;
+}
+
+.mountain__icons-text {
+    color: #FFF;
+    font-family: 'Poppins-Italic';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    padding-right: 16px;
+    padding-left: 4px;
+}
+
+.camera__container {
+    display: flex;
+}
+
+.camera__container-left {
+    background-color: #000;
+    background-size: 100%;
+    width: 50%;
+}
+
+.camera__container-right {
+    background-image: url(images/Camera.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50%;
+}
+
+.container__left-content {
+    padding: 173px 136px 200px 100px;
+}
+
+.content__uptitle {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.content__title {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.content__text {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.left__content-button {
+    border-radius: 14px;
+    background: #FFF;
+    width: 143px;
+    height: 42px;
+    margin-left: 5px;
+    font-family: Poppins-Italic;
+    margin-top: 20px;
+    display: flex;
+}
+
+.right__content-icons {
+    display: flex;
+    padding: 540px 0px 0px 470px ;
+}
+
+.jundle__container {
+    background-image: url(images/jungl.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jungle__content {
+    display: inline-flex;
+    height: 600px;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    padding-left: 1100px;
+}
+
+.jungle__title-text {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.jungle__text-text {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.jungle__icons {
+    display: flex;
+    padding: 0px 20px 20px 1150px;
+}
+
+.clients__content {
+    text-align: center;
+}
+
+.clients__content-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    padding-top: 100px;
+}
+
+.client__content-text {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins-Italic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.clients-logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 52px 0 30px 0px;
+}
+
+.clients__logo-img {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.faling-stars__container {
+    background-image: url(images/faling-stars.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.faling-stars__content-title {
+    color: #FFF;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.faling-stars__content-text {
+    color: #C0C0C0;
+    font-family: Poppins-Italic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.faling-stars__content {
+    padding: 270px 20px 0px 1200px;
+    width: 300px;
+}
+
+.faling-stars__icons {
+    display: flex;
+    padding: 200px 30px 20px 1200px;
+}
