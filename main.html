@@ -10,6 +10,14 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <style>
+        body { 
+            -ms-user-select: none; 
+            -moz-user-select: none; 
+            -webkit-user-select: none; 
+            user-select: none; 
+        }
+</style>
     <div class="main-container">
     <header class="header">
         <img src="images/logo.png" alt="" class="logo-img">
@@ -48,49 +56,40 @@
                 </h2>
                 <p class="main__what-we-do-secondary-text">The areas that we're specialized in.</p>
                 <div class="main__what-we-do-container-1">
-                    <div class="picture-1">
+                    <div class="picture-1 ">
                         <h3 class="picture-title">Product Photography</h3>
                         <p class="picture-text">Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                        <div class="button">
-                            <div class="black__dot">
-                                <img src="images/Frame-icon.svg" alt="" class="black-dot">
-                            </div>
-                            <p class="button__text">Read more</p>
-                        </div>
-                        
+                        <a href="#" class="switch-link">
+                            <div class="switch-link__circl"></div>
+                            Read more
+                        </a>
                     </div>
-                    <div class="picture-2">
+                    <div class="picture-2 ">
                         <h3 class="picture-title">Architecture Photography</h3>
                         <p class="picture-text">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
-                        <div class="button">
-                            <div class="black__dot">
-                                <img src="images/Frame-icon.svg" alt="" class="black-dot">
-                            </div>
-                            <p class="button__text">Read more</p>
-                        </div>
+                        <a href="#" class="switch-link">
+                            <div class="switch-link__circl"></div>
+                            Read more
+                        </a>
                     </div>
                 </div>  
                 <div class="main__what-we-do-container-2">
-                    <div class="picture-3">
+                    <div class="picture-3 ">
                         <h3 class="picture-title">Drone Photography</h3>
                         <p class="picture-text">Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                        <div class="button">
-                            <div class="black__dot">
-                                <img src="images/Frame-icon.svg" alt="" class="black-dot">
-                            </div>
-                            <p class="button__text">Read more</p>
-                        </div>
+                        <a href="#" class="switch-link">
+                            <div class="switch-link__circl"></div>
+                            Read more
+                        </a>
 
                     </div>
-                    <div class="picture-4">
+                    <div class="picture-4 ">
                         <h3 class="picture-title">Wildlife Photography</h3>
                         <p class="picture-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
-                        <div class="button">
-                            <div class="black__dot">
-                                <img src="images/Frame-icon.svg" alt="" class="black-dot">
-                            </div>
-                            <p class="button__text">Read more</p>
-                        </div>
+                        <a href="#" class="switch-link">
+                            <div class="switch-link__circl"></div>
+                            Read more
+                        </a>
 
                     </div>
                 </div>
@@ -124,12 +123,10 @@
                             <div class="content__uptitle">The Gear cage</div>
                             <div class="content__title">The tools that we use.</div>
                             <div class="content__text">The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</div>
-                            <div class="left__content-button">
-                                <div class="black__dot">
-                                    <img src="images/Frame-icon.svg" alt="" class="black-dot">
-                                </div>
-                                <p class="button__text">Check it out</p>
-                            </div>
+                            <a href="#" class="switch-link">
+                                <div class="switch-link__circl"></div>
+                                Check it
+                            </a>
                         </div>
 
                     </div>
@@ -257,8 +254,8 @@
                             <p class="content-1__midle-column_text">Changelog</p>
                         </div>
                     </div>
+                    <hr>
                     <div class="footer__container_2-content-2">
-                        <hr>
                         <div class="content-2__left-column">
                             <p class="content-2__left-column_title">
                                 Subscribe to our newsletter
@@ -268,13 +265,20 @@
                             </p>
                         </div>
                         <div class="content-2__right-column">
-
+                            <div class="text-field text-field_floating">
+                                <input class="text-field__input" type="email" id="email" placeholder="Email">
+                                <label class="text-field__label" for="email"></label>
+                              </div>
+                              <div class="text-field__button-container">
+                                <button class="text-field__button"></button>
+                              </div>
                         </div>
-                        <hr>
                     </div>
+                    <hr>
                     <div class="footer__container_2-content-3">
                         <div class="content-3__left-column">
                             <p class="content-3__left-column-text">© Aperture Photography, Inc. All rights reserved. Licensing</p>
+                            
                         </div>
                         <div class="content-3__right-column">
                             <img src="images/twiter-logo.svg" alt="" class="content-3__right-column-img">
